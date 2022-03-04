@@ -102,8 +102,29 @@ public class JavaTest3 {
 			
 		System.out.println(a+b);
 		
+	    System.out.println(4>23);
+	    System.out.println(4>23);
+	    
+	    
+	    int sum=3+8;
+	    System.out.println(sum);
+	    
+	    
+	    int x=4;
+	    
+	    x=(x--)*3;
+	    System.out.println(x);
+	    
+	    		
+	    		
+		int v=5;
+		v=++v;
+		v=v++;
+		v=v--;
+		v=--v;
+		System.out.println(v);
 		
-	
+		
 		
 		
 		
