@@ -23,14 +23,14 @@ public class JavaTest3 {
 		
 		
 		
-		float a=1.2F;
+		float t=1.2F;
 		
 
 		System.out.println(Math.PI);
 		
 		
 		
-		System.out.println(a+1.6);
+		System.out.println(t+1.6);
 		
 		
 		
@@ -62,6 +62,7 @@ public class JavaTest3 {
 		System.out.println(c1+1);
 	
 		
+//	1번	
 		
 		String  name="홍길동"; 
 		int     age=29;
@@ -70,6 +71,66 @@ public class JavaTest3 {
 						   "나이="+age+System.lineSeparator()+
 						   "키"+height);
 	
+		
+//	2번	
+		
+//		정수자료형: byte, short, int, long
+//		실수자료형: float, double
+//		문자자료형: char ''
+//		불리언자료형:boolean
+
+//		참조자료형 문자열: String
+		
+		
+		
+//	3번
+		
+//		10=정수자료형
+//		1.=실수자료형
+//		6f=실수자료형
+//		23d=실수자료형
+//		14E10=문자자료형
+//		'a'=문자자료형
+		
+		
+		
+//	4번
+		
+		int a=5; 
+		int b=10;
+	
+			
+		System.out.println(a+b);
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	   StringBuilder str=new StringBuilder("홍길동의 주머니");
 	   str.insert(5, "돈"); 
