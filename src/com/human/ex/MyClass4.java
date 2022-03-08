@@ -1,5 +1,8 @@
 package com.human.ex;
-
+class car{
+		public String name;
+		public String price;
+}
 public class MyClass4 {
 
 	public static void main(String[] args) {
@@ -130,6 +133,41 @@ public class MyClass4 {
 //		y2=Double.parseDouble(sc.nextLine());
 //		result=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 //		System.out.println(String.format("거리:%f", result));
+		
+		
+		
+		
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		double width=0;
+		double column=0;
+		double height=0;
+		double result=0;
+		System.out.println("가로길이 입력");
+		width=Double.parseDouble(sc.nextLine());
+		System.out.println("세로길이 입력");
+		column=Double.parseDouble(sc.nextLine());
+		System.out.println("높이 입력");
+		height=Double.parseDouble(sc.nextLine());
+		result=width*column*height;
+		System.out.println("부피:"+result);
+		
+		
+		
+		car c1=new car();
+		c1.name="아반떼";
+		c1.price="3000";
+		System.out.println(c1.name+ c1.price);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
