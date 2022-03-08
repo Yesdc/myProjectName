@@ -114,26 +114,27 @@ public class MyClass4 {
 		
 		//문제4
 		
-		double x1=0;
-		double y1=0;
-		double x2=0;
-		double y2=0;
-		double result=0;
-		java.util.Scanner sc=new java.util.Scanner(System.in);
-		System.out.println("x1 입력");
-		x1=Double.parseDouble(sc.nextLine());
-		System.out.println("y1 입력");
-		y1=Double.parseDouble(sc.nextLine());
-		System.out.println("x2 입력");
-		x2=Double.parseDouble(sc.nextLine());
-		System.out.println("y2 입력");
-		y2=Double.parseDouble(sc.nextLine());
-		result=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
-		System.out.println(String.format("거리:%f", result));
+//		double x1=0;
+//		double y1=0;
+//		double x2=0;
+//		double y2=0;
+//		double result=0;
+//		java.util.Scanner sc=new java.util.Scanner(System.in);
+//		System.out.println("x1 입력");
+//		x1=Double.parseDouble(sc.nextLine());
+//		System.out.println("y1 입력");
+//		y1=Double.parseDouble(sc.nextLine());
+//		System.out.println("x2 입력");
+//		x2=Double.parseDouble(sc.nextLine());
+//		System.out.println("y2 입력");
+//		y2=Double.parseDouble(sc.nextLine());
+//		result=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+//		System.out.println(String.format("거리:%f", result));
 		
 		
 		
 		
+	
 		
 		
 		
