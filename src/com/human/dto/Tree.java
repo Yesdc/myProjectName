@@ -10,25 +10,35 @@ public class Tree {
 		public Owner owner=new Owner();
 		
 		public Tree() {}
-		public Tree(String name, int hour, int exp, int price, int max, int now, 
-				    String Oname, int Oage, String Otel) {
+		public Tree(String name, int hour, int exp, int price, int max, int now,
+				    String Oname, int Oage, String Otel) 
+				
+				{
 			
 		this.name=name;
 		this.hour=hour;
 		this.exp=exp;
 		this.price=price;
 		this.max=max;
-		this.now=now;
+		this.now=now;		
+		
+		
 	    this.owner.name=Oname;
 	    this.owner.age=Oage;
 	    this.owner.tel=Otel;
 	    
-		
-		
+	
 			
 			
 			
 			
 			
 		}
+		@Override
+		public String toString() {
+			return "Tree [name=" + name + ", hour=" + hour + ", exp=" + exp + ", price=" + price + ", max=" + max
+					+ ", now=" + now + ", owner=" + owner + "]";
+		}
+	
+	
 }

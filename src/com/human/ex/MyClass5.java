@@ -94,8 +94,8 @@ public class MyClass5 {
 		System.out.println(tre4.name+tre4.hour+tre4.exp+tre4.price+tre4.now+tre4.max+tre4.owner.name);
 		
 		System.out.println(tre1.owner.age+tre2.owner.name+tre4.owner.tel);
-		
-		
+	
+		System.out.println(tre2);
 		
 	}
 

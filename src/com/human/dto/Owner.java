@@ -15,6 +15,10 @@ public class Owner {
 			
 			
 		}
+		@Override
+		public String toString() {
+			return "Owner [name=" + name + ", age=" + age + ", tel=" + tel + "]";
+		}
 		
 		
 		
