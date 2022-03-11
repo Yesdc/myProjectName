@@ -33,20 +33,20 @@ public class JavaClass {
 		//source > hash equal
 		
 				
-//문제1 사용자 입력을 받아 10보다 큰지 크지 않은지 출력하는 프로그램을 만들어보자.
+// 문제1 사용자 입력을 받아 10보다 큰지 크지 않은지 출력하는 프로그램을 만들어보자.
 		
 //		java.util.Scanner sc=new java.util.Scanner(System.in);
 //		int number=0;
 //		System.out.println("숫자입력");
 //		number=Integer.parseInt(sc.nextLine());
 //		if(number>10) {
-//				       System.out.println("10보다 큼");
+//			   System.out.println("10보다 큼");
 //		}else {
 //			   System.out.println("10보다 작음");
 //		}	
 		
 		
-//문제2 사용자 입력 true를 받아서 ‘true’가 입력되었습니다’. ‘true’가 입력되지
+// 문제2 사용자 입력 true를 받아서 ‘true’가 입력되었습니다’. ‘true’가 입력되지
 //		않았습니다.’ 가 출력 되도록 만들어 보자.		
 //		java.util.Scanner sc=new java.util.Scanner(System.in);		
 //		String tr="";
@@ -63,7 +63,7 @@ public class JavaClass {
 //		출력되도록 프로그램을 구현해 보자.			
 //		java.util.Scanner sc=new java.util.Scanner(System.in);	
 //		int password=0;
-//		System.out.println("암호 입력");
+//			System.out.println("암호 입력");
 //		password=Integer.parseInt(sc.nextLine());
 //		if(password==1004) {
 //			System.out.println("암호가 맞음");
@@ -76,7 +76,6 @@ public class JavaClass {
 //		java.util.Scanner sc=new java.util.Scanner(System.in);
 //		System.out.println("인사 입력");
 //		String hello="";
-//
 //		hello=sc.nextLine();
 //		if(hello.equals("안녕")) {
 //			System.out.println("너도 안녕");
@@ -87,11 +86,21 @@ public class JavaClass {
 //		}
 				
 		
+		int a[]=new int[3];
+		int b[]=new int[4];
+				
+		a[0]=5; a[1]=1; a[2]=3;
+		b[0]=2; b[1]=4; b[2]=6; b[3]=3;
 		
-		
+		System.out.println(a[1]+b[0]+b[2]);
 		
 				
-				
+		a[1]=0;
+		b[0]=0; b[3]=0;
+		System.out.println(a[0]);		
+		System.out.println(a[1]);		
+		System.out.println(b[1]);		
+		System.out.println(b[2]);		
 		
 		
 		
