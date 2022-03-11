@@ -79,24 +79,48 @@ public class MyClass5 {
 //		System.out.println(h1.age);
 //		
 		
-		Tree tre1=new Tree("Mango", 4,4,200,50,7,"tomas",51,"010-1111-4444");
-		Tree tre2=new Tree("Papaya", 6,6,375,50,6,"yomas",52,"010-2222-4444");
-		Tree tre3=new Tree("Banana Palm", 5,5,500,50,7,"homas",53,"010-3333-4444");
-		Tree tre4=new Tree("Lemon", 8,8,750,50,1,"romas",54,"010-4444-4444");		
-		Owner on1=new Owner("tom",20,"010-5569-9999");
+//		Tree tre1=new Tree("Mango", 4,4,200,50,7,"tomas",51,"010-1111-4444");
+//		Tree tre2=new Tree("Papaya", 6,6,375,50,6,"yomas",52,"010-2222-4444");
+//		Tree tre3=new Tree("Banana Palm", 5,5,500,50,7,"homas",53,"010-3333-4444");
+//		Tree tre4=new Tree("Lemon", 8,8,750,50,1,"romas",54,"010-4444-4444");		
+//		Owner on1=new Owner("tom",20,"010-5569-9999");
+//		
+//		
+//		
+//		System.out.println(on1.name+on1.age+on1.tel);
+//		System.out.println(tre1.name+tre1.hour+tre1.exp+tre1.price+tre1.now+tre1.max+tre1.owner.name);
+//		System.out.println(tre2.name+tre2.hour+tre2.exp+tre2.price+tre2.now+tre2.max+tre2.owner.name);
+//		System.out.println(tre3.name+tre3.hour+tre3.exp+tre3.price+tre3.now+tre3.max+tre3.owner.name);
+//		System.out.println(tre4.name+tre4.hour+tre4.exp+tre4.price+tre4.now+tre4.max+tre4.owner.name);
+//		
+//		System.out.println(tre1.owner.age+tre2.owner.name+tre4.owner.tel);
+//	
+//		System.out.println(tre2);
+
 		
 		
 		
-		System.out.println(on1.name+on1.age+on1.tel);
-		System.out.println(tre1.name+tre1.hour+tre1.exp+tre1.price+tre1.now+tre1.max+tre1.owner.name);
-		System.out.println(tre2.name+tre2.hour+tre2.exp+tre2.price+tre2.now+tre2.max+tre2.owner.name);
-		System.out.println(tre3.name+tre3.hour+tre3.exp+tre3.price+tre3.now+tre3.max+tre3.owner.name);
-		System.out.println(tre4.name+tre4.hour+tre4.exp+tre4.price+tre4.now+tre4.max+tre4.owner.name);
 		
-		System.out.println(tre1.owner.age+tre2.owner.name+tre4.owner.tel);
+		
+		
+		
+		
 	
-		System.out.println(tre2);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
+	
+	
+	
+	
 
 }
