@@ -497,7 +497,286 @@ public class JavaClass03 {
 //			System.out.println("국or아이스크림");
 //		}else if(rice.equals("빵")){
 //			System.out.println("우유or커피");			
-//		}ㄹㄹ
+//		}
+		
+		
+		
+		
+//		System.out.println("나이를 입력하세요");
+//		int age=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		System.out.println("교통카드 유무?");
+//		boolean isCard=Boolean.parseBoolean(new java.util.Scanner(System.in).nextLine());
+//		int change=0;
+//		if(age<15) {
+//			change=1300;			
+//		}else {
+//			change=1600;
+//		}
+//		if(isCard) {
+//			change=change-100;
+//		}
+//		System.out.println(change);
+		
+		
+		
+		
+		
+//		int rr=(int)(Math.random()*3)+6;
+//		System.out.println(rr);
+//		
+//		System.out.println((int)Math.random()*10);
+//		
+		
+		
+//		9번
+//		java.util.Scanner sc=new java.util.Scanner(System.in);
+//		System.out.println("학생or성인");
+//		String age=sc.nextLine();
+//		System.out.println("키");
+//		double hei=Double.parseDouble(sc.nextLine());
+//		System.out.println("몸무게");
+//		double wei=Double.parseDouble(sc.nextLine());
+//		double bmi=(wei/(hei-100)*0.9)*100;
+//		
+//		if(age.equals("학생")) {
+//			if(95>bmi) {
+//				System.out.println("체중미달");
+//			}else if((bmi>=95)&&(120>bmi)) {
+//				System.out.println("정상");
+//			}else if((bmi>=120)&&(130>bmi)) {
+//				System.out.println("경도비만");
+//			}else if((bmi>=130)&&(150>bmi)) {
+//				System.out.println("중도비만");
+//			}else if((bmi>=150)) {
+//				System.out.println("고도비만");
+//			}
+//		}else {
+//			
+//		}
+//		if(age.equals("성인")) {
+//			if(100>bmi) {
+//				System.out.println("체중미달");
+//			}else if((bmi>=100)&&(110>bmi)) {
+//				System.out.println("정상");
+//			}else if((bmi>=110)&&(120>bmi)) {
+//				System.out.println("경도비만");
+//			}else if((bmi>=120)&&(150>bmi)) {
+//				System.out.println("중도비만");
+//			}else if((bmi>=150)) {
+//				System.out.println("고도비만");
+//			}
+//		}else {
+//			
+//		}
+		
+		
+		
+//		10번  다음 표를 확인하여 사용자가 알고 있는 신체사이즈중 하나를 입력받아 해당
+//		미국사이즈와 한국사이즈를 출력하시오.
+//		java.util.Scanner sc=new java.util.Scanner(System.in);
+//		System.out.println("목,가슴,팔길이,허리 선택");
+//		String choice=sc.nextLine();
+//		System.out.println("사이즈 입력");
+//		double size=Double.parseDouble(sc.nextLine());
+//		if(choice.equals("목")) {
+//			if((size>=33)&&(35>=size)) {
+//				System.out.println("미국사이즈 s, 한국사이즈 90~95");
+//			}else if((size>=36)&&(37>=size)) {
+//				System.out.println("미국사이즈 m, 한국사이즈 95~100");
+//			}else if((size>=38)&&(39>=size)) {
+//				System.out.println("미국사이즈 L, 한국사이즈 100~105");
+//			}else if((size>=41)&&(42>=size)) {
+//				System.out.println("미국사이즈 XL, 한국사이즈 105~120");
+//			}else if((size>=43)&&(45>=size)) {
+//				System.out.println("미국사이즈 XXL, 한국사이즈 110이상");
+//			}
+//		}else {
+//		
+//		}
+//		if(choice.equals("가슴")) {
+//			if((size>=86)&&(91>=size)) {
+//				System.out.println("미국사이즈 s, 한국사이즈 90~95");
+//			}else if((size>=96)&&(102>=size)) {
+//				System.out.println("미국사이즈 m, 한국사이즈 95~100");
+//			}else if((size>=107)&&(112>=size)) {
+//				System.out.println("미국사이즈 L, 한국사이즈 100~105");
+//			}else if((size>=117)&&(122>=size)) {
+//				System.out.println("미국사이즈 XL, 한국사이즈 105~120");
+//			}else if((size>=127)&&(132>=size)) {
+//				System.out.println("미국사이즈 XXL, 한국사이즈 110이상");
+//			}
+//		}else {
+//		
+//		}
+//		if(choice.equals("팔")) {
+//			if((size>=78)&&(81>=size)) {
+//				System.out.println("미국사이즈 s, 한국사이즈 90~95");
+//			}else if((size>=81)&&(84>=size)) {
+//				System.out.println("미국사이즈 m, 한국사이즈 95~100");
+//			}else if((size>=85)&&(86>=size)) {
+//				System.out.println("미국사이즈 L, 한국사이즈 100~105");
+//			}else if((size>=87)&&(89>=size)) {
+//				System.out.println("미국사이즈 XL, 한국사이즈 105~120");
+//			}else if((size>=90)&&(91>=size)) {
+//				System.out.println("미국사이즈 XXL, 한국사이즈 110이상");
+//			}
+//		}else {
+//		
+//		}
+//		if(choice.equals("허리")) {
+//			if((size>=28)&&(29>=size)) {
+//				System.out.println("미국사이즈 s, 한국사이즈 90~95");
+//			}else if((size>=30)&&(31>=size)) {
+//				System.out.println("미국사이즈 m, 한국사이즈 95~100");
+//			}else if((size>=32)&&(34>=size)) {
+//				System.out.println("미국사이즈 L, 한국사이즈 100~105");
+//			}else if((size>=35)&&(37>=size)) {
+//				System.out.println("미국사이즈 XL, 한국사이즈 105~120");
+//			}else if((size>=38)&&(40>=size)) {
+//				System.out.println("미국사이즈 XXL, 한국사이즈 110이상");
+//			}
+//		}else {
+//		
+//		}
+		
+		
+//		11번 다음과 같이 실행되는 계산기 프로그램을 만들어보자.
+//		첫번째수 입력>>5, 연산자선택 1. + 2. - 3. * 4. / >>3 두번째수 입력>>12
+//		5*12=60 입니다.
+//		java.util.Scanner sc=new java.util.Scanner(System.in);
+//		System.out.println("첫번째수 입력");
+//		int num1=Integer.parseInt(sc.nextLine());
+//		System.out.println("연산자선택 1. + 2. - 3. * 4. /");
+//		int num2=Integer.parseInt(sc.nextLine());
+//		System.out.println("두번째수 입력");
+//		int num3=Integer.parseInt(sc.nextLine());
+//		int result=0;
+//		if(num2==1) {
+//			result=num1+num3;
+//		}else {
+//			
+//		}
+//		if(num2==2) {
+//			result=num1-num3;
+//		}else {
+//			
+//		}
+//		if(num2==3) {
+//			result=num1*num3;
+//		}else {
+//			
+//		}
+//		if(num2==4) {
+//			result=num1/num3;
+//		}else {
+//			
+//		}
+//		
+//		System.out.println("계산결과="+result);
+		
+		
+		
+		
+//		12번
+//		java.util.Scanner sc=new java.util.Scanner(System.in);
+//		System.out.println("가위,바위,보 입력");
+//		String game=sc.nextLine();
+//		int Ran=(int)(Math.random()*3);
+//		if((Ran==0)&&(game.equals("가위"))) {
+//			System.out.println("무승부");
+//		}else if((Ran==0)&&(game.equals("바위"))){
+//			System.out.println("승리");
+//		}else if((Ran==0)&&(game.equals("보"))){
+//			System.out.println("패배");
+//		}else if((Ran==1)&&(game.equals("가위"))){
+//			System.out.println("패배");
+//		}else if((Ran==1)&&(game.equals("바위"))){
+//			System.out.println("무승부");
+//		}else if((Ran==1)&&(game.equals("보"))){
+//			System.out.println("승리");
+//		}else if((Ran==2)&&(game.equals("가위"))){
+//			System.out.println("승리");
+//		}else if((Ran==2)&&(game.equals("바위"))){
+//			System.out.println("패배");
+//		}else if((Ran==2)&&(game.equals("보"))){
+//			System.out.println("무승부");
+//		}
+		
+		
+		
+//		13번 6~10사이의 램덤한 수를 만들어 보자. 총 수에 범위는 6,7,8,9,10 5개 이므로 랜덤
+//		함수에 5를 곱하고 시작을 6부터 하니 더하기 6를 하면 될 것이다. 제대로 동작하는지
+//		확인해 보자.
+		
+//		int random=(int)((Math.random()*5)+6);
+//		System.out.println(random);
+		
+		
+//		14번 1~45까지의 수를 랜덤하게 만들어보자.
+//		int random=(int)((Math.random()*45)+1);
+//		System.out.println(random);
+		
+//		15번 가위,바위,보 문자열중 하나를 랜덤하게 화면에 출력하는 프로그램을 구현해보자.하나를
+//		내는 것 처럼 구현 하려면 0,1,2 3개의 수를 랜덤하게 리턴하게 만든 다음 가위,바위,보
+//		3개에 1:1 매핑하면 된다.
+
+//		int random=(int)((Math.random()*3)+1);
+//		if(random==1) {
+//			System.out.println("가위");
+//		}else if(random==2) {
+//			System.out.println("바위");
+//		}else if(random==3) {
+//			System.out.println("보");
+//		}
+		
+		
+//		16번 왼쪽표를 기본으로 본인이
+//		낼 새금이 얼마인지 출력하는
+//		프로그램을 구현해 보자.
+//		
+//		java.util.Scanner sc=new java.util.Scanner(System.in);
+//		System.out.println("소득 입력(단위:만원)");
+//		int income=Integer.parseInt(sc.nextLine());
+//		double tex=0;
+//		double rate1=0.06;
+//		double rate2=0.15;
+//		double rate3=0.24;
+//		double rate4=0.35;
+//		double rate5=0.38;
+//		double rate6=0.40;
+//		double rate7=0.42;
+//						
+//		
+//		if(1200>=income) {
+//			tex=income*0.06;
+//		}else if((income>1200)&&(4600>=income)) {
+//			tex=(income*rate2)-108;
+//		}else if((income>4600)&&(8800>=income)) {
+//			tex=(income*rate3)-522;
+//		}else if((income>8800)&&(15000>=income)) {
+//			tex=(income*rate4)-1490;
+//		}else if((income>15000)&&(30000>=income)) {
+//			tex=(income*rate5)-1940;
+//		}else if((income>30000)&&(50000>=income)) {
+//			tex=(income*rate6)-2540;
+//		}else if(income>50000) {
+//			tex=(income*rate7)-3540;
+//		}
+//	
+//		System.out.println("낼 세금="+tex+"만원");
+//		e
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -508,5 +787,7 @@ public class JavaClass03 {
 		
 		
 	}
+
+
 
 
