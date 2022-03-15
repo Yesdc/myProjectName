@@ -764,7 +764,7 @@ public class JavaClass03 {
 //		}
 //	
 //		System.out.println("낼 세금="+tex+"만원");
-//		e
+//		ee
 		
 		
 		
