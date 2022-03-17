@@ -167,14 +167,55 @@ public class JavaClass06 {
 		
 		
 //		문제8 3개의 수를 입력 받아 가장 작은 수와 가장 큰수를 출력하는 프로그램을 만들어 보자.
-		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
-		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
-		int c=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
-		for(int i=a+b+c;i>=0;i--) {
-			if(i-a==0) {
-				System.out.println(false);
-			}
-		}ff
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		int c=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		for(int i=a+b+c;i>=0;i--) {
+//			if(i-a==0) {
+//				System.out.println("가장큰수="+a);
+//				break;
+//			}else if(i-b==0) {
+//				System.out.println("가장큰수="+b);
+//				break;
+//			}else if(i-c==0) {
+//				System.out.println("가장큰수="+c);
+//				break;
+//			}
+//		}
+//		for(int i=0;i>=0;i++) {
+//			if(i-a==0) {
+//				System.out.println("가장작은수="+a);
+//				break;
+//			}else if(i-b==0) {
+//				System.out.println("가장작은수="+b);
+//				break;
+//			}else if(i-c==0) {
+//				System.out.println("가장작은수="+c);
+//				break;
+//			}
+//		}
+		솟
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
