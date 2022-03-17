@@ -83,7 +83,9 @@ public class JavaClass06 {
 //		문제3 두 수를 입력받아 두수의 공통된 약수를 모두 출력해 보자. 0부터 하나씩 증가시키며 두수
 //		모두 나눠지는 수를 출력하면 된다. 출력된 수중에서 가장 큰수를 입력받은 두수의
 //		최대공약수라고 한다.
+//		System.out.println("첫번째 수");
 //		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		System.out.println("두번째 수");
 //		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
 //		for(int i=1;i>0;i++) {
 //			if((a%i==0)&&(b%i==0)) {
@@ -97,7 +99,9 @@ public class JavaClass06 {
 		
 //		문제4 두수를 입력받아 두수의 최대 공약수를
 //		구하는 프로그램을 만들어 보자.
+		System.out.println("첫번째 수");
 //		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+		System.out.println("두번째 수");
 //		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
 //		
 //		for(int i=a;i>=0;i--) {
@@ -155,7 +159,9 @@ public class JavaClass06 {
 //		처음 찾은수가 최소 공배수이다.
 //		int result1=0;
 //		int result2=0;
+		System.out.println("첫번째 수");
 //		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+		System.out.println("두번째 수");
 //		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
 //		for(int i=1;i>=1;i++) {
 //			
@@ -167,8 +173,11 @@ public class JavaClass06 {
 		
 		
 //		문제8 3개의 수를 입력 받아 가장 작은 수와 가장 큰수를 출력하는 프로그램을 만들어 보자.
+//		System.out.println("첫번째 수");
 //		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		System.out.println("두번째 수");
 //		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		System.out.println("세번째 수");
 //		int c=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
 //		for(int i=a+b+c;i>=0;i--) {
 //			if(i-a==0) {
@@ -194,7 +203,230 @@ public class JavaClass06 {
 //				break;
 //			}
 //		}
-		솟
+		
+		
+//		문제9 100이하의 수학과목 점수를 5번 입력받아 60이하 탈락자가 몇명인지 출력하는 프로그램을
+//		구현해 보자.
+//		int a=0;
+//		int b=0;
+//		for(int i=1;i<6;i++) {
+//			a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//			if(60>=a) {
+//				b++;
+//			}
+//		}
+//		System.out.println("탈락자="+b+"명");
+		
+		
+//		문제10 1부터 차례대로 더한 총합이 최초 100을 넘기 직전까지 누적한 결과값을 순서대로
+//		출력하시오. 1:1 2:3 3:6 4:10 5:15 6:21 … 100이전의 총합들을 다음과 같이 출력되면
+//		된다.
+//		int sum=0;
+//		for(int i=1;i>=0;i++) {
+//			if(sum>90) {
+//				break;
+//			}
+//			sum=sum+i;
+//			System.out.println(i+":"+sum);
+//			
+//		}
+
+		
+//		문제11 문자열과 숫자를 입력받아 입력받은 문자열을 숫자만큼 출력하는 프로그램을 만들어
+//		보자.
+//		System.out.println("문자열 입력");
+//		String a=new java.util.Scanner(System.in).nextLine();
+//		System.out.println("숫자입력");
+//		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		for(int i=1;i<b+1;i++) {
+//			System.out.println(a);
+//		}
+		
+		
+//		문제12  입력받은 두수 사이의 숫자들의 합을 구하는 프로그램을 만들어 보자.
+//		System.out.println("첫번째 수");
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		System.out.println("두번째 수");
+//		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		int sum=0;
+//		
+//		if(a-b<0) {					
+//			for(int i=a+1;i<b;i++) {
+//				sum=sum+i;
+//			}				
+//		}else {
+//			for(int i=b+1;i<a;i++) {
+//				sum=sum+i;
+//		}			
+//		}
+//		System.out.println(sum);
+		
+		
+//		문제13 소수는 1과 자기 자신만으로 나누어지는 수이다. 2,3,5같은 경우 1과 본인 자신만으로
+//		나누어지므로 소수이다. 수를 하나 입력받아 소수인지 아닌지 판별하는 프로그램을
+//		구현하시오.
+//		System.out.println("수 입력");
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		int result=0;
+//		int sum=0;
+//		String T="0";
+//			for(int i=2;i<a;i++) {
+//				result=a%i;
+//				if(result==0) {
+//					T="소수아님";
+//					System.out.println(T);
+//					break;
+//				}
+//					
+//			}
+//		if(T.equals("0")) {
+//			System.out.println("소수");
+//		}
+		
+		
+//		문제14 두 수를 입력 받아 첫 번째수 부터 시작하여 하나씩 카운트하여 두번째수 만큼 화면에
+//		출력 하는 프로그램을 만든다. 5 6를 입력 받으면 5부터 6개 5 6 7 8 9 10 이 화면에 출력
+//		된다.
+//		System.out.println("첫번째수");
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		System.out.println("두번째수");
+//		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		for(int i=1;i<b+1;i++) {
+//			System.out.println(a);
+//			a++;			
+//		}
+				
+			
+//		문제15 사용자가 “종료”를 입력할때 까지 무한 반복하는 프로그램을 3가지 방법으로
+//		구현하시오.	
+//15-1	
+//		System.out.println("종료 입력>>");
+//		String a=new java.util.Scanner(System.in).nextLine();	
+//		for(int i=0;i>=0;i++) {			
+//			System.out.println(i);
+//			if(a.equals("종료")) {
+//				break;
+//			}
+//		
+//		}
+		
+//15-2	
+//		System.out.println("종료 입력>>");
+//		String a=new java.util.Scanner(System.in).nextLine();
+//		int i=0;
+//		while(i>=0) {
+//			System.out.println(i);
+//			if(a.equals("종료")) {
+//				break;
+//			}
+//			i++;
+//		}
+		
+		
+//15-3	
+//		System.out.println("종료 입력>>");
+//		String a=new java.util.Scanner(System.in).nextLine();
+//		int i=0;
+//		do {
+//			System.out.println(i);
+//			if(a.equals("종료")) {
+//				break;
+//			}
+//			i++;
+//		}while(i>=0);	
+		
+		
+		
+		
+//		문제16 1~9 사이의 숫자를 하나 입력받아 해당 숫자의 구구단을 출력하여 보자.
+//		System.out.println("숫자입력");
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		int result=0;
+//		for(int i=1;i<10;i++) {
+//			result=a*i;
+//			System.out.println(a+"X"+i+"="+result);
+//		}
+		
+		
+//		문제17 숫자를 하나 입력받아 1~1000사이에 입력받은 숫자의 배수가 몇 개인지 출력하는
+//		프로그램을 만들어 보자.
+//		System.out.println("숫자입력");
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		int result=0;
+//		int b=0;
+//		for(int i=1;i<10001;i++) {
+//			result=i%a;
+//			if(result==0) {
+//				b++;
+//			}
+//		}
+//		System.out.println(b);
+		
+		
+//		문제18 사용자에게 행과 열을 입력받아 행과 열에 맞춰서 1부터 100까지 출력하는 프로그램을
+//		구현해 보자.
+//		System.out.println("행");
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		System.out.println("열");
+//		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		for(int i=1;i<101;i++) {
+//			System.out.print(i);
+//			if(i%a==0) {
+//				System.out.println("");
+//			}
+//		}
+		
+		
+//		문제19  컴퓨터가 던진 동전이 앞면 인지 뒷면 인지 맞추는 프로그램을 구현해 보자. 맞춘
+//		회수와 틀린 회수를 기록해서 보여주고 3번 맞추면 프로그램이 종료되게 만들자.
+//		System.out.print("앞:1 뒤:2");
+//		int a=0;
+//		int b=(int)((Math.random()*2)+1);
+//		int good=0;
+//		int bad=0;
+//		for(int i=good;i>=0;i++) {
+//			a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//			if(a==b) {
+//				good++;
+//				System.out.println("맞춤");
+//			}else {
+//				bad++;
+//				System.out.println("틀림");
+//			}
+//			System.out.println("맞춘횟수="+good+" 틀린횟수="+bad);
+//			if(good==3) {
+//				break;
+//			}
+//		}
+//		System.out.println("종료");
+		
+		
+//		문제20 컴퓨터가 던진 주사위 수를 맞추는 프로그램을 구현해 보자. 10회 맞추어 맞춘 회수와
+//		틀린 회수를 기록해서 보여 주자.
+//		System.out.println("주사위 맞추기");
+//		int a=0;
+//		int b=(int)((Math.random()*6)+1);
+//		int good=0;
+//		int bad=0;
+//		for(int i=1;i<11;i++) {
+//			a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//			if(a==b) {
+//				good++;
+//				
+//			}else {
+//				bad++;
+//			}
+//		System.out.println("맞춘횟수="+good+" 틀린횟수"+bad);	
+//		}
+//		System.out.println("10회 끝");
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
