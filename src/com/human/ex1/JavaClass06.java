@@ -132,23 +132,49 @@ public class JavaClass06 {
 //		제대로 입력한 회수를 출력하고 사용자가
 //		제대로 입력한 총합을 출력하는 프로그램을
 //		만들어 보자.
-		int sum=0;
-		int a=0;
-		for(int i=1;i>=1;i++) {
-			a=Integer.parseInt(new java.util.Scanner(System.in).nextLine()); 
-			System.out.println(i);
-			if((a>0)&&(10>=0)) {
-				sum=sum+a;
+//		int sum=0;
+//		int a=0;
+//		int b=0;		
+//		for(a=0;a<3;) {
+//			int c=Integer.parseInt(new java.util.Scanner(System.in).nextLine()); 	
+//			if((c>0)&&(10>=c)) {
+//				sum=sum+c;
+//				a++;				
+//			}else {
+//				b++;
+//			}
+//			if(a==3) {
+//				System.out.println("잘못 입력한 횟수="+b+" 제대로 입력한 횟수="+a+" 제대로 입력한 총합="+"sum");
+//			}			
+//		}
+		
+		
+//		문제7  두수를 입력 받아 공배수 중 가장 작은 배수를 최소
+//		공배수를 출력하는 프로그램을 만들어 보자. 1 부터 하나씩 증가시켜 입력 받은 두수가 모두
+//		0으로 나누어 떨어지는 수들은 공배수 이고 이중 가장 먼저 찾은 수가 가장 작은 수이므로
+//		처음 찾은수가 최소 공배수이다.
+//		int result1=0;
+//		int result2=0;
+//		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		for(int i=1;i>=1;i++) {
+//			
+//			if((i%a==0)&&(i%b==0)) {
+//				System.out.println(i);
+//				break;
+//			}
+//		}
+		
+		
+//		문제8 3개의 수를 입력 받아 가장 작은 수와 가장 큰수를 출력하는 프로그램을 만들어 보자.
+		int a=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+		int b=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+		int c=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+		for(int i=a+b+c;i>=0;i--) {
+			if(i-a==0) {
+				System.out.println(false);
 			}
-		}
-		ff
-		
-		
-		
-		
-		
-		
-		
+		}ff
 		
 		
 		
