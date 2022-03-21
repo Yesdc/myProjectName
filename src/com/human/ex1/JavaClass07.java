@@ -164,7 +164,7 @@ public class JavaClass07 {
 		
 //		문제11 .컴퓨터에서 주사위던지는 프로그램을 구현하였을때 던져서 나온수의 빈도(회수)를 구하는
 //		프로그램을 작성해 보자.
-//		
+		
 //		System.out.println("주사위 던질 횟수입력");
 //		int a1=Integer.parseInt(new java.util.Scanner(System.in).nextLine());		
 //		int num[]= {1,2,3,4,5,6};
@@ -197,6 +197,31 @@ public class JavaClass07 {
 //		}
 //		System.out.println("1="+num1+"회 ,"+"2="+num2+"회 ,"+"3="+num3+"회 ,"+
 //				"4="+num4+"회 ,"+"5="+num5+"회 ,"+"6="+num6+"회,");
+//		
+		
+		int count=60000;
+		int result[]=new int[6];
+		
+		for(int i=0;i<count;i++) {
+			int num=(int)(Math.random()*6);
+			result[num]++;
+		}
+		
+		for(int i=0;i<result.length;i++) {
+			System.out.println("주사위"+(i+1)+"빈도수:"+result[i]);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
