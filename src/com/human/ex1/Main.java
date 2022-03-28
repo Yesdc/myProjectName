@@ -1,32 +1,33 @@
 package com.human.ex1;
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
+import java.util.StringTokenizer;
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		
 		
 		
 		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		for(int i=0;i<n;i++) {
-			for(int k=i;k<n;k++) {
-				System.out.print("*");
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int q=0;
+		for(int i=0;i<a;i++) {
+			int c=sc.nextInt();
+			if(b>c) {
+				q++;		
 			}
-			System.out.println("");
+			
+		}
+		for(int k=0;k<q;k++) {
+			System.out.print(k);
 		}
 		
-
 		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+	
+		
+
+	
 			
 			
 			

@@ -257,76 +257,35 @@ public class JavaClass11 {
 //		문제14 해당 달의 시작 요일과 일수를 입력 받아 달력을 출력해 보자.\t 탭을 이용해서
 //		만들어 보자.
 		
-		Scanner sc=new Scanner(System.in);
-		String day="";
-		int num=0;
-		System.out.print("요일 입력");
-		day=sc.next();
-		System.out.print("일수 입력");
-		num=sc.nextInt();
-		if(day.equals("일요일")) {
-			for(int i=1;i<num+1;i++) {
-				System.out.print(i+"일"+"\t");
-				if(i%7==0) {
-					System.out.println("");
-				}
-			}
-		}else if(day.equals("월요일")) {
-			System.out.print("\t");
-			for(int i=1;i<num+1;i++) {
-				
-				System.out.print(i+"일"+"\t");
-				
-			}
-		}else if(day.equals("화요일")) {
-			System.out.print("\t");
-			System.out.print("\t");
-			for(int i=1;i<num+1;i++) {
-				
-				System.out.print(i+"일"+"\t");
-			}
-		}else if(day.equals("수요일")) {
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			for(int i=1;i<num+1;i++) {
-			
-				System.out.print(i+"일"+"\t");
-			}
-		}else if(day.equals("목요일")) {
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			for(int i=1;i<num+1;i++) {
-				
-				System.out.print(i+"일"+"\t");
-			}
-		}else if(day.equals("금요일")) {
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			for(int i=1;i<num+1;i++) {
-				
-				System.out.print(i+"일"+"\t");
-			}
-		}else if(day.equals("토요일")) {
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			System.out.print("\t");
-			for(int i=1;i<num+1;i++) {
-				
-				
-				System.out.print(i+"일"+"\t");
-			}
-		}
-		
-		
+//		Scanner sc=new Scanner(System.in);
+//		String day="";
+//		int num=0;
+//		System.out.print("요일 입력");
+//		day=sc.next();
+//		System.out.print("일수 입력");
+//		num=sc.nextInt();
+//		String ar[]= {"일요일","월요일","화요일","수요일","목요일","금요일","토요일"};
+//		for(int i=0;i<7;i++) {
+//			if(ar[i].equals(day)) {
+//				for(int a=0;a<7;a++) {
+//					if(a==i) {
+//						for(int b=0;b<a;b++) {
+//							System.out.print("\t");
+//						}
+//						
+//						
+//					}
+//				}
+//				for(int c=1;c<num+1;c++) {
+//					System.out.print(c+"일");
+//					System.out.print("\t");
+//					if(ar[c].equals("토요일")) {
+//						System.out.println("");
+//					}
+//				}	
+//			}
+//		}
+//		
 		
 		
 		
