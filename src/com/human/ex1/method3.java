@@ -1,6 +1,6 @@
 package com.human.ex1;
 import java.util.Arrays;
-
+import java.util.Scanner;
 import com.human.dto.Cat;
 public class method3 {
 	
@@ -57,17 +57,25 @@ public class method3 {
 	
 //	문제4
 	
-	public static void calender(int dayNum) {
+	public static void calender(int dayNum, String day) {
+		String days[]={"일요일","월요일","화요일","수요일","목요일","금요일","토요일"};
+		System.out.println("일요일"+"\t"+"월요일"+"\t"+"화요일"+"\t"+"수요일"+"\t"+"목요일"+"\t"+"금요일"+"\t"+"토요일");
 		
+    	for(int k=0;k<days.length;k++) {
+			if(!day.equals(days[k])) {
+				System.out.print("\t");
+			}else {
+				break;
+			}
+		}
 		
-		for(int i=1;i<=dayNum;i++) {
-			
-			System.out.print(i+"일"+"\t");
-			if(i%7==0) {
-				System.out.println("");
-			}			
-		}				
-	}
+//		for(int a=1;a<dayNum;a++) {
+//			System.out.print(a+"일"+"\t");
+//			if((days.equals("월요일")&&a==6)) {
+//				System.out.println("");
+//			}
+//		}
+//	}
 	
 //	문제5 매개 변수가 하나인 메소드 6개(intFunc,doubleFunc,stringFunc,catFunc,intArrFunc,catArrFunc)를
 //	각각 만들어 보자. 메소드 별 각각의 매개변수는 다음과 같다
@@ -132,9 +140,36 @@ public class method3 {
 	
 	public static double circle(int radius) {
 		double area=0;
+		
 		area=radius*radius*3.14;
+		System.out.print(area);
 		return area;
 	}
+	public static int quadrangle(int width, int column) {
+		int area=0;		
+		area=width*column;
+		System.out.print(area);
+		return area;
+	}
+	public static double triangle(int bottom, int height) {
+		double area=0;
+		
+		area=(bottom*height)/2;
+		System.out.print(area);
+		return area;
+	}
+	
+//	문제7 매개변수에 숫자하나를 받아 들어서 구구단중 해당 숫자의 단수를 출력하는
+//	메소드를 작성해서 숫자하나를 입력받아 해당 숫자의 단을 출력하는 프로그램을 완성해
+//	보자.
+
+	public static void timesTable(int num) {
+		for(int i=1;i<10;i++) {
+			System.out.println(num+" X "+i+" = "+(num*i));
+		}
+	}
+	
+
 	
 //	
 	
@@ -154,7 +189,7 @@ public class method3 {
 		
 		
 		
-//		calender(30);
+		calender(30,"월요일");
 		
 		
 		
@@ -191,16 +226,47 @@ public class method3 {
 		
 		
 		
+//		Scanner sc=new Scanner(System.in);
+//		int radius=0;
+//		int width=0;
+//		int column=0;
+//		int bottom=0;
+//		int height=0;
+//		System.out.print("도형 선택 1.원 2.사각형 3.삼각형");
+//		int select=sc.nextInt();
+//		switch(select) {
+//		case 1:
+//			System.out.print("반지름 입력");
+//			radius=sc.nextInt();
+//			circle(radius);
+//			break;
+//		case 2:
+//			System.out.print("가로길이 입력");
+//			width=sc.nextInt();
+//			System.out.print("세로길이 입력");
+//			column=sc.nextInt();
+//			
+//			quadrangle(width,column);
+//			break;
+//		case 3:
+//			System.out.print("밑변 입력");
+//			bottom=sc.nextInt();
+//			System.out.print("높이 입력");
+//			height=sc.nextInt();
+//			triangle(bottom,height);
+//			break;
+//		default:
+//			break;
+//			
+//		}
 		
 		
+//		Scanner sc=new Scanner(System.in);
+//		System.out.print("단 입력");
+//		int num=sc.nextInt();
+//		timesTable(num);
 		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		
 	}
