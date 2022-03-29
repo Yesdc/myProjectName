@@ -18,26 +18,17 @@ public class Main {
 				q++;		
 			}
 			
-		}
-		for(int k=0;k<q;k++) {
-			System.out.print(k);
-		}
-		
-		
 	
-		
-
 	
-			
-			
-			
-			
-			
-			
+		}
+		
+		
+		
+		
+		
 		
 		
 		
 		
 	}
-
 }
