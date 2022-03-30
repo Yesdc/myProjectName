@@ -68,7 +68,7 @@ public class method3 {
 				break;
 			}
 		}
-		
+	}	
 //		for(int a=1;a<dayNum;a++) {
 //			System.out.print(a+"일"+"\t");
 //			if((days.equals("월요일")&&a==6)) {
@@ -113,7 +113,7 @@ public class method3 {
 		c="바뀜";
 		return c;
 	}
-	
+	//
 	
 	public static int[] intArrFunc(int a[]) {
 		int rValue[]=a;
