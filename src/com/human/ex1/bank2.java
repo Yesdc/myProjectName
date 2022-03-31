@@ -1,5 +1,5 @@
 package com.human.ex1;
-
+//
 class User{
 		public static final int LOGIN_LOG_OFF=0;
 		public static final int LOGIN_NOMAL_USER=1;
@@ -194,6 +194,7 @@ public class bank2 {
 		//
 		
 		
+	
 		
 		
 	}

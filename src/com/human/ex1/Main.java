@@ -8,21 +8,21 @@ public class Main {
 		
 		
 		
-		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		int q=0;
-		for(int i=0;i<a;i++) {
-			int c=sc.nextInt();
-			if(b>c) {
-				q++;		
-			}
-			
-	
-	
-		}
+//		Scanner sc=new Scanner(System.in);
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		int q=0;
+//		for(int i=0;i<a;i++) {
+//			int c=sc.nextInt();
+//			if(b>c) {
+//				q++;		
+//			}
+//			
+//	
+//	
+//		}
 		
-		
+		//
 		
 		
 		
